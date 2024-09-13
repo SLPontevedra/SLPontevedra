@@ -1,0 +1,32 @@
+{
+    "posts": [
+      {
+        "title": "Ideas para Organizar tus Finanzas",
+        "intro": "Al llegar a Pontevedra, es clave organizar un presupuesto familiar mientras te adaptas. Vivir con familiares es común al principio, por lo que es vital controlar gastos, ahorrar y buscar trabajos temporales mientras regularizas tu situación laboral.",
+        "date": "2024-09-01",
+        "category": "Finanzas",
+        "author": "Juan Alvaro Martinez",
+        "blog_code": "post1.md",
+        "img": "blog/img/post1.jpg"
+      },
+      {
+        "title": "Maneja tu Finanza con Inteligencia y Paciencia",
+        "intro": "Aprovecha los recursos locales gratuitos, ajusta tu estilo de vida y ahorra lo que puedas para enfrentar cualquier eventualidad. Con paciencia y planificación, podrás superar los desafíos iniciales y construir una base sólida para tu futuro.",
+        "date": "2024-08-25",
+        "category": "Finanzas",
+        "author": "Juan Alvaro Martinez",
+        "blog_code": "post2.md",
+        "img": "blog/img/post2.jpg"
+      },
+      {
+        "title": "Cómo Generar Ingresos para Mantenerte a Flote",
+        "intro": "Explora trabajos temporales, ofrece servicios locales, participa en encuestas y realiza microtrabajos. Con una planificación adecuada y un enfoque proactivo, podrás superar este periodo de transición y alcanzar la estabilidad financiera.",
+        "date": "2024-07-30",
+        "category": "Finanzas",
+        "author": "Juan Alvaro Martinez",
+        "blog_code": "post3.md",
+        "img": "blog/img/post3.jpg"
+      }
+    ]
+  }
+  

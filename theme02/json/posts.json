@@ -1,0 +1,37 @@
+{
+    "posts": [
+      {
+        "title": "Centros de Salud y Consultorios",
+        "intro": "",
+        "category": "",
+        "theme_code": "post1.md",
+        "img": "theme02/img/post1.jpg"
+      },
+      {
+        "title": "Hospitales Públicos y Privados",
+        "intro": "",
+        "category": "",
+        "theme_code": "post2.md",
+        "img": "theme02/img/post2.jpg"
+      },
+      {
+        "title": "Tarjeta Sanitaria Europea",
+        "intro": "",
+        "theme_code": "post3.md",
+        "img": "theme02/img/post3.jpg"
+      },
+      {
+        "title": "Farmacias y Servicios Médicos Urgentes",
+        "intro": "",
+        "theme_code": "post4.md",
+        "img": "theme02/img/post4.jpg"
+      },
+      {
+        "title": "Citas Seguridad Social",
+        "intro": "",
+        "theme_code": "post5.md",
+        "img": "theme02/img/post5.jpg"
+      }
+    ]
+  }
+  
