@@ -9,7 +9,7 @@ La TIE solo puede ser expedida en la provincia donde resides. Asegúrate de real
 *Gestionar Trámite* [Solicitar Cita](https://icp.administracionelectronica.gob.es/icpplus/index)
 - Selecciona Provincia de *Pontevedra*
 - Selecciona Oficina *CNP Pontevedra, Joaquin Costa, 17*
-- Selecciona el Trámite *Policia-Toma de Huellas (Expedición de  Tarjeta)
+- Selecciona el Trámite *Policia-Toma de Huellas (Expedición de  Tarjeta)*
 - Seleccionar *Aceptar*
 
 ## Si no hay citas disponibles
