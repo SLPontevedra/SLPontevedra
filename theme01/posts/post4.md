@@ -17,9 +17,10 @@ La TIE solo puede ser expedida en la provincia donde resides. Asegúrate de real
 Fuente: [ICP](https://icp.administracionelectronica.gob.es/icpplus/selectSede)
 **¿cuándo se ofrecerán nuevas citas en la Oficina de Extranjería?**
 
-Si no encuentras citas disponibles en la Oficina de Extranjería, debes saber que los días 10 y 26 de cada mes se habilitan nuevas citas presenciales. 
+Si no encuentras citas disponibles en la Oficina de Extranjería, debes saber que **los días 10 y 26 de cada mes** se habilitan **nuevas citas** presenciales. 
 
 Te recomendamos estar atento en estos días para reservar tu cita lo antes posible, ya que las plazas pueden agotarse rápidamente.
+
 ---
 
 ## **Antes de Solicitar la Cita**
