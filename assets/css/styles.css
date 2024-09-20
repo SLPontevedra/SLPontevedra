@@ -277,19 +277,37 @@ footer {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #f4f4f4;
-    margin-top: 20px;
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco para mejor contraste */
+    margin-top: 40px;
     font-size: 14px;
+    border-top: 2px solid #007acc; /* Línea superior azul */
+    max-width: 100%; /* Asegura que el footer no se salga del ancho de la pantalla */
+    box-sizing: border-box; /* Mantiene el padding y border dentro del width */
 }
 
 footer a {
-    color: #007acc;
+    color: #00ccff; /* Color de enlace más visible */
     text-decoration: none;
+    font-weight: bold;
 }
 
 footer a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Subrayar enlace al pasar el ratón */
 }
+
+footer p {
+    margin: 10px 0; /* Espaciado entre párrafos */
+}
+
+/* Estilos para pantallas pequeñas como móviles */
+@media (max-width: 600px) {
+    footer {
+        font-size: 12px; /* Ajustar tamaño de fuente en pantallas pequeñas */
+        padding: 15px;
+    }
+}
+
 
 
 
