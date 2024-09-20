@@ -308,6 +308,61 @@ footer p {
     }
 }
 
+/* Estilos para el menú */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #3a3a80;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Ícono hamburguesa (oculto en pantallas grandes) */
+#menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+/* Pantallas pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    nav ul {
+        display: none; /* Ocultar el menú en pantallas pequeñas */
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        background-color: #3a3a80;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    nav ul.show {
+        display: flex; /* Mostrar el menú cuando se hace clic en el ícono */
+    }
+
+    nav ul li {
+        display: block; /* Cada ítem ocupa toda la línea */
+        margin: 10px 0;
+    }
+
+    /* Mostrar el ícono hamburguesa en pantallas pequeñas */
+    #menu-icon {
+        display: block;
+    }
+}
 
 
 
