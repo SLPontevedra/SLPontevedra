@@ -364,5 +364,48 @@ nav ul li a {
     }
 }
 
+/* Posicionar el logo a la izquierda y alinear con el título en pantallas grandes */
+header {
+    display: flex;
+    justify-content: flex-start; /* Alinear contenido a la izquierda */
+    align-items: center; /* Alinear logo y título al mismo nivel */
+    padding: 20px;
+    background-color: #1a1a40;
+}
 
+.logo-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 20px; /* Espacio entre el logo y el título */
+}
 
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* El título y logo estarán uno encima del otro en pantallas pequeñas */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-container {
+        margin-right: 0;
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+        margin-right: 0; /* Sin margen en pantallas pequeñas */
+    }
+}

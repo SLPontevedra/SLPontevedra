@@ -4,6 +4,9 @@ document.addEventListener("DOMContentLoaded", function() {
     if (!noHeader) {
         const headerTemplate = `
             <header>
+                <div class="logo-container">
+                    <img src="/assets/images/Logo-SL-Pontevedra-Activa.png" alt="Logo SL Pontevedra Activa" class="logo">
+                </div>
                 <h1>SL Pontevedra Activa</h1>
                 <nav>
                     <div class="menu-icon" id="menu-icon">&#9776;</div> <!-- Ícono hamburguesa -->
