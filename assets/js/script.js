@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         // Imagen con manejo de errores
         const imgElement = document.createElement('img');
+        console.log(postJson.img);
         const imageSrc = postJson.img ? `blog/img/${postJson.img}` : 'blog/img/default.jpg';
         imgElement.src = imageSrc;
         imgElement.alt = postJson.title ? postJson.title : 'Imagen genérica';

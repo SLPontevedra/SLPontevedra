@@ -1,13 +1,22 @@
 {
     "posts": [
       {
+        "title": "Un Nuevo Comienzo: El Orgullo de Nuestro Logo para SL Pontevedra Activa",
+        "intro": "Con este logo, celebramos la diversidad y la fuerza de cada persona que decide cruzar este puente hacia una vida mejor.",
+        "date": "2024-09-01",
+        "category": "Finanzas",
+        "author": "Juan Alvaro Martinez",
+        "blog_code": "post10.md",
+        "img": "post10.jpg"
+      },
+      {
         "title": "Ideas para Organizar tus Finanzas",
         "intro": "Al llegar a Pontevedra, es clave organizar un presupuesto familiar mientras te adaptas. Vivir con familiares es común al principio, por lo que es vital controlar gastos, ahorrar y buscar trabajos temporales mientras regularizas tu situación laboral.",
         "date": "2024-09-01",
         "category": "Finanzas",
         "author": "Juan Alvaro Martinez",
         "blog_code": "post1.md",
-        "img": "blog/img/post1.jpg"
+        "img": "post1.jpg"
       },
       {
         "title": "Maneja tu Finanza con Inteligencia y Paciencia",
@@ -16,7 +25,7 @@
         "category": "Finanzas",
         "author": "Juan Alvaro Martinez",
         "blog_code": "post2.md",
-        "img": "blog/img/post2.jpg"
+        "img": "post2.jpg"
       },
       {
         "title": "Cómo Generar Ingresos para Mantenerte a Flote",
@@ -25,7 +34,7 @@
         "category": "Finanzas",
         "author": "Juan Alvaro Martinez",
         "blog_code": "post3.md",
-        "img": "blog/img/post3.jpg"
+        "img": "post3.jpg"
       }
     ]
   }
