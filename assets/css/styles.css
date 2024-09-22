@@ -19,6 +19,7 @@ header h1 {
     color: #ffffff;
     margin: 0;
     font-size: 2rem; /* Tamaño relativo */
+    padding-right: 10px;
 }
 
 /* Navegación */
@@ -309,6 +310,10 @@ footer p {
 }
 
 /* Estilos para el menú */
+#menu-ppal ul {
+    padding-right: 20px;
+} 
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -369,7 +374,7 @@ header {
     display: flex;
     justify-content: flex-start; /* Alinear contenido a la izquierda */
     align-items: center; /* Alinear logo y título al mismo nivel */
-    padding: 20px;
+    padding: 10px;
     background-color: #1a1a40;
 }
 
@@ -384,7 +389,7 @@ header {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit:  cover;
 }
 
 /* Ajustes para pantallas pequeñas */

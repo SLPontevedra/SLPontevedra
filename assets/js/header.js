@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", function() {
         const headerTemplate = `
             <header>
                 <div class="logo-container">
-                    <img src="/assets/images/Logo-SL-Pontevedra-Activa.png" alt="Logo SL Pontevedra Activa" class="logo">
+                    <img src="/assets/images/Logo SL Pontevedra Activa P001.png" alt="Logo SL Pontevedra Activa" class="logo">
                 </div>
                 <h1>SL Pontevedra Activa</h1>
-                <nav>
+                <nav id="menu-ppal">
                     <div class="menu-icon" id="menu-icon">&#9776;</div> <!-- Ícono hamburguesa -->
                     <ul id="menu-list">
                         <li><a href="/index.html">Inicio</a></li>
