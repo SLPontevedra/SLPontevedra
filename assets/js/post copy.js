@@ -36,11 +36,10 @@ document.addEventListener("DOMContentLoaded", async function () {
                 const postContent = marked.parse(mdContent);
                 document.getElementById('post-content').innerHTML = postContent;
 
-                // Cargar la imagen del post y aplicar la clase CSS para el estilo
+                // Cargar la imagen del post
                 const postImage = document.createElement('img');
                 postImage.src = `blog/img/${postDetails.img}`;
                 postImage.alt = postDetails.title;
-                postImage.classList.add('responsive-post-image');  // Añadir clase para estilos
                 postImage.onerror = () => {
                     postImage.src = 'blog/img/default.jpg';
                 };
