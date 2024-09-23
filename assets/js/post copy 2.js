@@ -24,53 +24,6 @@ document.addEventListener("DOMContentLoaded", async function () {
                     metaDescription.setAttribute('content', postDetails.intro);
                 }
 
-                // Actualizar metadatos Open Graph
-                const ogTitle = document.querySelector('meta[property="og:title"]') || document.createElement('meta');
-                ogTitle.setAttribute('property', 'og:title');
-                ogTitle.setAttribute('content', postDetails.title);
-                document.head.appendChild(ogTitle);
-
-                const ogDescription = document.querySelector('meta[property="og:description"]') || document.createElement('meta');
-                ogDescription.setAttribute('property', 'og:description');
-                ogDescription.setAttribute('content', postDetails.intro);
-                document.head.appendChild(ogDescription);
-
-                const ogImage = document.querySelector('meta[property="og:image"]') || document.createElement('meta');
-                ogImage.setAttribute('property', 'og:image');
-                ogImage.setAttribute('content', `https://slpontevedra.github.io/blog/img/${postDetails.img}`);
-                document.head.appendChild(ogImage);
-
-                const ogUrl = document.querySelector('meta[property="og:url"]') || document.createElement('meta');
-                ogUrl.setAttribute('property', 'og:url');
-                ogUrl.setAttribute('content', window.location.href);
-                document.head.appendChild(ogUrl);
-
-                const ogType = document.querySelector('meta[property="og:type"]') || document.createElement('meta');
-                ogType.setAttribute('property', 'og:type');
-                ogType.setAttribute('content', 'article');
-                document.head.appendChild(ogType);
-
-                // Actualizar metadatos Twitter Cards
-                const twitterCard = document.querySelector('meta[name="twitter:card"]') || document.createElement('meta');
-                twitterCard.setAttribute('name', 'twitter:card');
-                twitterCard.setAttribute('content', 'summary_large_image');
-                document.head.appendChild(twitterCard);
-
-                const twitterTitle = document.querySelector('meta[name="twitter:title"]') || document.createElement('meta');
-                twitterTitle.setAttribute('name', 'twitter:title');
-                twitterTitle.setAttribute('content', postDetails.title);
-                document.head.appendChild(twitterTitle);
-
-                const twitterDescription = document.querySelector('meta[name="twitter:description"]') || document.createElement('meta');
-                twitterDescription.setAttribute('name', 'twitter:description');
-                twitterDescription.setAttribute('content', postDetails.intro);
-                document.head.appendChild(twitterDescription);
-
-                const twitterImage = document.querySelector('meta[name="twitter:image"]') || document.createElement('meta');
-                twitterImage.setAttribute('name', 'twitter:image');
-                twitterImage.setAttribute('content', `https://slpontevedra.github.io/blog/img/${postDetails.img}`);
-                document.head.appendChild(twitterImage);
-
                 // Cargar el título en el cuerpo del documento
                 document.getElementById('post-title').textContent = postDetails.title;
 
