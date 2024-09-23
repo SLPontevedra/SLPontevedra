@@ -15,16 +15,35 @@ document.addEventListener("DOMContentLoaded", async function () {
             const postDetails = postsData.posts.find(post => post.blog_code === postFile);
 
             if (postDetails) {
+                // Modificar el título en el head dinámicamente
+                document.title = `${postDetails.title} - Pontevedra Activa`;
+
+                // Modificar la meta descripción
+                const metaDescription = document.querySelector('meta[name="description"]');
+                if (metaDescription) {
+                    metaDescription.setAttribute('content', postDetails.intro);
+                }
+
+                // Cargar el título en el cuerpo del documento
                 document.getElementById('post-title').textContent = postDetails.title;
 
+                // Cargar el contenido del post (markdown)
                 const responseMd = await fetch(`blog/posts/${postFile}`);
                 if (!responseMd.ok) {
                     throw new Error(`Error al cargar el archivo ${postFile}`);
                 }
-
                 const mdContent = await responseMd.text();
                 const postContent = marked.parse(mdContent);
                 document.getElementById('post-content').innerHTML = postContent;
+
+                // Cargar la imagen del post
+                const postImage = document.createElement('img');
+                postImage.src = `blog/img/${postDetails.img}`;
+                postImage.alt = postDetails.title;
+                postImage.onerror = () => {
+                    postImage.src = 'blog/img/default.jpg';
+                };
+                document.getElementById('post-content').insertAdjacentElement('afterbegin', postImage);
 
                 generateContentIndex();
             } else {

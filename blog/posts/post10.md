@@ -2,10 +2,6 @@
 
 En *SL Pontevedra Activa*, estamos llenos de orgullo al presentar nuestro logo, que simboliza la esencia de una nueva vida en Pontevedra, una ciudad que se convierte en el segundo hogar para aquellos que eligen iniciar aquí su **segunda vida**. Este logo no es solo una imagen; es una representación visual de la integración, la historia y la belleza de Pontevedra, que ahora se entrelaza con la historia personal de cada migrante que llega.
 
-<div style="display: flex; align-items: center;">
-    <img src="/blog/img/post10.jpg" alt="El logo de SL Pontevedra Activa" width="300" height="300">
-</div>
-
 ## **El Río Lérez: Un Flujo Constante hacia el Futuro**
 El río Lérez, cuyas aguas han moldeado la ciudad por siglos, aparece en nuestro logo como símbolo de la continuidad y el flujo de la vida. Al igual que el migrante que cruza fronteras en busca de nuevas oportunidades, el río nunca se detiene. El Lérez une el pasado con el presente, tal como nuestro proyecto busca unir a los recién llegados con la rica cultura de Pontevedra.
 
